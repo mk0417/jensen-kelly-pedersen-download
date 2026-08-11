@@ -7,7 +7,7 @@ A simple Python package for downloading JKP data.
 I will not release a PyPI package. Therefore, you can install `jkp_download` directly from the GitHub repository using `pip`:
 
 ```bash
-pip install git+https://github.com/mk0417/jkp-download.git
+pip install git+https://github.com/mk0417/jensen-kelly-pedersen-download.git
 ```
 
 ## Usage
