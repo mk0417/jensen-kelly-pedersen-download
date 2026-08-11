@@ -27,6 +27,14 @@ avail_weight = jkp.list_weights()
 avail_freq = jkp.list_freq()
 ```
 
+To download details of factors and markets:
+
+```python
+doc_dl('factor')
+
+doc_dl('market')
+```
+
 Use `factor_dl` to download long-minus-short returns, and use `port_dl` to download all tercile portfolio returns.
 
 ```python
