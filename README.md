@@ -45,7 +45,7 @@ data = jkp.factor_dl('usa', 'all_factors', 'monthly', 'ew')
 data = jkp.factor_dl('all_countries', 'value', 'daily', 'vw')
 
 # Download monthly tercile portfolio returns (capped value-weighted) of single factor, asset-to-book equity, in UK
-data = jkp.port_dl('gbr', , 'at_be', 'monthly', 'vw_cap')
+data = jkp.port_dl('gbr', 'at_be', 'monthly', 'vw_cap')
 ```
 
 Note: Themes are not allowed for `port_dl`.
